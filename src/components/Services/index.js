@@ -1,7 +1,10 @@
 import React from "react";
-import Icon1 from "../../images/product_iteration.svg";
-import Icon2 from "../../images/stepping_up.svg";
-import Icon3 from "../../images/stock_prices.svg";
+import Icon1 from "../../images/personal_finance_0DAAA3.svg";
+import Icon2 from "../../images/dev_productivity_0DAAA3.svg";
+import Icon3 from "../../images/security_on_0DAAA3.svg";
+import Icon4 from "../../images/maintenance_0DAAA3.svg";
+import Icon5 from "../../images/investing_0DAAA3.svg";
+import Icon6 from "../../images/done_0DAAA3.svg";
 import {
   ServicesCard,
   ServicesContainer,
@@ -20,45 +23,27 @@ const Services = () => {
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon src={Icon1} />
-            <ServicesH2>Reduce expenses</ServicesH2>
-            {/* <ServicesP>
-              We help reduce your fees and increase your overall revenue.
-            </ServicesP> */}
+            <ServicesH2>Passive Income</ServicesH2>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
-            <ServicesH2>Virtual Services</ServicesH2>
-            {/* <ServicesP>
-              You can access our platform online anywhere in the world.
-            </ServicesP> */}
+            <ServicesH2>24/7 Monitoring</ServicesH2>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon3} />
-            <ServicesH2>Premium Benefits</ServicesH2>
-            {/* <ServicesP>
-              Unlock our special membership card that returns 5% cash back.
-            </ServicesP> */}
+            <ServicesH2>Highly Secured</ServicesH2>
           </ServicesCard>
           <ServicesCard>
-            <ServicesIcon src={Icon1} />
-            <ServicesH2>Reduce expenses</ServicesH2>
-            {/* <ServicesP>
-              We help reduce your fees and increase your overall revenue.
-            </ServicesP> */}
+            <ServicesIcon src={Icon4} />
+            <ServicesH2>Dedicated Servers</ServicesH2>
           </ServicesCard>
           <ServicesCard>
-            <ServicesIcon src={Icon2} />
-            <ServicesH2>Virtual Services</ServicesH2>
-            {/* <ServicesP>
-              You can access our platform online anywhere in the world.
-            </ServicesP> */}
+            <ServicesIcon src={Icon5} />
+            <ServicesH2>High Performance</ServicesH2>
           </ServicesCard>
           <ServicesCard>
-            <ServicesIcon src={Icon3} />
-            <ServicesH2>Premium Benefits</ServicesH2>
-            {/* <ServicesP>
-              Unlock our special membership card that returns 5% cash back.
-            </ServicesP> */}
+            <ServicesIcon src={Icon6} />
+            <ServicesH2>Reliable Infrastructure</ServicesH2>
           </ServicesCard>
         </ServicesWrapper>
       </ServicesContainer>

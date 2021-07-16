@@ -14,7 +14,7 @@ import {
   NavBtnLink,
   NavLogoImage,
 } from "./NavbarElements";
-import Logo from "../../images/cupid-logo-medium.png";
+import Logo from "../../images/cupid_logo_192_80.png";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -41,8 +41,8 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavBarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              {/* <NavLogoImage src={Logo} /> */}
-              Cupid
+              <NavLogoImage src={Logo} />
+              {/* Cupid */}
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -69,7 +69,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Contact Us
+                  Why Us
                 </NavLinks>
               </NavItem>
               <NavItem>

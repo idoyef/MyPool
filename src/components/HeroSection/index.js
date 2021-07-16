@@ -12,7 +12,7 @@ import {
   ArrowRight,
   ArrowDone,
 } from "./HeroElements";
-import Video from "../../videos/video (1).mp4";
+import Video from "../../videos/data.mp4";
 
 const INITIAL_BUTTON_TEXT = "Copy Pool ID";
 const COPIED_TEXT = "Pool ID Copied";
@@ -56,7 +56,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Cardano Stake Pool</HeroH1>
-        <HeroP>Stake your ADA for passive income</HeroP>
+        <HeroP>Stake your ADA with 0% commission</HeroP>
         <HeroBtnWrapper>
           <Button
             onClick={handleClick}
