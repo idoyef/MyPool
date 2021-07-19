@@ -84,22 +84,10 @@ const Navbar = ({ toggle }) => {
                   Services
                 </NavLinks>
               </NavItem>
-              {/* <NavItem>
-                <NavLinks
-                  to="signup"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact="true"
-                  offset={-80}
-                >
-                  Sign Up
-                </NavLinks>
-              </NavItem> */}
             </NavMenu>
-            {/* <NavBtn>
-              <NavBtnLink to="/signin">How To Stake</NavBtnLink>
-            </NavBtn> */}
+            <NavBtn>
+              <NavBtnLink to="/how-to-stake">How To Stake</NavBtnLink>
+            </NavBtn>
           </NavBarContainer>
         </Nav>
       </IconContext.Provider>

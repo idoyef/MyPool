@@ -1,14 +1,26 @@
-import React from "react";
-import scrollToTop from "../components/ScrollToTop";
-import SignIn from "../components/Signin";
+import React, { useState } from "react";
+import Footer from "../components/Footer";
+import HowToStakeSection from "../components/HowToStakeSection";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 
-const StartStakingPage = () => {
+function StartStakingPage() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <scrollToTop />
-      <SignIn />
+
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
+      <HowToStakeSection />
+      <Footer />
     </>
   );
-};
+}
 
 export default StartStakingPage;

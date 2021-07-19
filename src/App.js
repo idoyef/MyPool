@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/signin" component={StartStakingPage} exact />
+        <Route path="/how-to-stake" component={StartStakingPage} exact />
       </Switch>
     </Router>
   );

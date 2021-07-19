@@ -12,7 +12,7 @@ import {
   Text,
 } from "./SigninElements";
 
-const SignIn = () => {
+const HowToStake = () => {
   return (
     <>
       <Container>
@@ -37,4 +37,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default HowToStake;
