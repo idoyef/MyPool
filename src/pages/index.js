@@ -22,9 +22,9 @@ function Home() {
     setIsOpen(!isOpen);
   };
 
-  // setTimeout(() => {
-  //   setModal(<Modal showModal={showModal} setShowModal={setShowModal} />);
-  // }, 500);
+  window.onbeforeunload = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>

@@ -7,8 +7,6 @@ export const homePromotionObj = {
   topLine: "Promotion",
   headline: "Support our pool and double your first reward",
   description:
-    // "We want to show our appreciation by doubling the reward for new delegators that joining us at August (up to 100ADA) ",
-    // "We want to show you our appreciation for joining our community! Only this July-August, we are doubling for new delegators their first reward (up to 100ADA).",
     ", we want to show you our appreciation for joining our community!",
 
   buttonLabel: "Get Started",

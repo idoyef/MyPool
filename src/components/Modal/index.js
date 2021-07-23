@@ -33,6 +33,10 @@ const Modal = ({ showModal, setShowModal }) => {
     }
   };
 
+  useEffect(() => {
+    document.body.style.overflow = showModal ? "hidden" : "unset";
+  }, [showModal]);
+
   const keyPress = useCallback(
     (e) => {
       if (e.key === "Escape" && showModal) {
@@ -59,13 +63,26 @@ const Modal = ({ showModal, setShowModal }) => {
             /> */}
 
             <ModalContent>
-              <h1>August Promotion!</h1>
-              <p style={{ textAlign: "center", fontWeight: "bold" }}>
+              <h1>July-August Promotion!</h1>
+              <div
+                style={{
+                  fontSize: "18px",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                }}
+              >
                 Double your first reward
-              </p>
-              <p style={{ textAlign: "center", fontWeight: "bold" }}>
+              </div>
+              <div
+                style={{
+                  fontSize: "18px",
+                  textAlign: "center",
+                  fontWeight: "bold",
+                  paddingBottom: "30px",
+                }}
+              >
                 (up to 100 ADA)
-              </p>
+              </div>
               <ModalDetailsButton to="promotion" onClick={getMoreDetails}>
                 More Details
               </ModalDetailsButton>
