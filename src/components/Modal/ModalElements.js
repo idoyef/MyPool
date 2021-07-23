@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { MdClose } from "react-icons/md";
+import { Link as LinkScroll } from "react-scroll";
 
 export const ModalContainer = styled.div`
   top: 0;
@@ -18,13 +19,13 @@ export const ModalBg = styled.div`
 `;
 
 export const ModalWrapper = styled.div`
-  width: 800px;
+  width: 500px;
   height: 500px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   background: #fff;
   color: #000;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   position: relative;
   z-index: 1000;
   border-radius: 10px;
@@ -44,16 +45,12 @@ export const ModalContent = styled.div`
   align-items: center;
   line-height: 1.8;
   color: #141414;
+  margin: 5px;
+  border: 4px #0daaa3 solid;
+  border-radius: 10px;
 
   p {
     margin-bottom: 1rem;
-  }
-
-  button {
-    padding: 10px 24px;
-    background: #141414;
-    color: #fff;
-    border: none;
   }
 
   h1 {
@@ -71,6 +68,14 @@ export const ModalContent = styled.div`
       color: black;
     }
   }
+`;
+
+export const ModalDetailsButton = styled(LinkScroll)`
+  cursor: pointer;
+  padding: 10px 24px;
+  background: #141414;
+  color: #fff;
+  border: none;
 `;
 
 export const CloseModalButton = styled(MdClose)`
