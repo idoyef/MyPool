@@ -73,6 +73,15 @@ export const ModalContent = styled.div`
   }
 `;
 
+export const ModalDetailsButton = styled(LinkScroll)`
+  cursor: pointer;
+  padding: 10px 24px;
+  background: #0daaa3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+`;
+
 export const CloseModalButton = styled(MdClose)`
   cursor: pointer;
   position: absolute;
