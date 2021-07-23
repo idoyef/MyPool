@@ -107,9 +107,9 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
             </NavMenu>
-            <NavBtn>
+            {/* <NavBtn>
               <NavBtnLink to="/how-to-stake">How To Stake</NavBtnLink>
-            </NavBtn>
+            </NavBtn> */}
           </NavBarContainer>
         </Nav>
       </IconContext.Provider>

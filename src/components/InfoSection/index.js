@@ -41,7 +41,15 @@ const InfoSection = ({
               <TextWrapper>
                 <TopLine topLineLightText={topLineLightText}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Subtitle darkText={darkText}>
+                  <span style={{ fontWeight: "bold" }}>New delegators</span>
+                  {description}
+                  <div>
+                    Only this July-August, we are{" "}
+                    <span style={{ fontWeight: "bold" }}>doubling</span> your
+                    first reward (up to 100ADA).
+                  </div>
+                </Subtitle>
                 <BtnWrap>
                   <Button
                     to="home"
