@@ -55,6 +55,22 @@ export const ModalContent = styled.div`
     color: #fff;
     border: none;
   }
+
+  h1 {
+    animation: color-change 0.8s infinite;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: black;
+    }
+    50% {
+      color: #0daaa3;
+    }
+    100% {
+      color: black;
+    }
+  }
 `;
 
 export const CloseModalButton = styled(MdClose)`

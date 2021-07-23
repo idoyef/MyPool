@@ -52,12 +52,14 @@ const Modal = ({ showModal, setShowModal }) => {
               />
 
               <ModalContent>
-                <h1>Stake With Us!</h1>
-                <p style={{ textAlign: "center" }}>
-                  New delegators in July-August doubles their first rewards (up
-                  to 100 ADA)
+                <h1>August Promotion!</h1>
+                <p style={{ textAlign: "center", fontWeight: "bold" }}>
+                  Double your first reward
                 </p>
-                <button>More Details</button>
+                <p style={{ textAlign: "center", fontWeight: "bold" }}>
+                  (up to 100 ADA)
+                </p>
+                <button style={{ cursor: "pointer" }}>More Details</button>
               </ModalContent>
               <CloseModalButton
                 aria-label="Close modal"
