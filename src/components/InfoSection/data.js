@@ -1,3 +1,22 @@
+export const homePromotionObj = {
+  id: "promotion",
+  lightBg: true,
+  topLineLightText: false,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Promotion",
+  headline: "Support our pool and double your first reward",
+  description:
+    "We want to show our appreciation by doubling the reward for new delegators that joining us at August (up to 100ADA) ",
+  buttonLabel: "Get Started",
+  imgStart: true,
+  img: require("../../images/online_wishes_0DAAA3.svg").default,
+  alt: "Connected_World",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+
 export const homeObjOne = {
   id: "about",
   lightBg: false,

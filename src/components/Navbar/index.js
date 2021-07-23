@@ -84,6 +84,28 @@ const Navbar = ({ toggle }) => {
                   Services
                 </NavLinks>
               </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="promotion"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  <div
+                    style={{
+                      border: "2px solid #0DAAA3",
+                      borderRadius: "10px",
+                      padding: "4px 7px",
+                    }}
+                  >
+                    <strong style={{ fontSize: "17px", color: "#0DAAA3" }}>
+                      Promotion
+                    </strong>
+                  </div>
+                </NavLinks>
+              </NavItem>
             </NavMenu>
             <NavBtn>
               <NavBtnLink to="/how-to-stake">How To Stake</NavBtnLink>

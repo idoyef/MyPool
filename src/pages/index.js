@@ -6,6 +6,7 @@ import {
   homeObjOne,
   homeObjTwo,
   homeObjThree,
+  homePromotionObj,
 } from "../components/InfoSection/data";
 import Modal from "../components/Modal";
 import Navbar from "../components/Navbar";
@@ -32,6 +33,7 @@ function Home() {
       {/* {modal} */}
       <Navbar toggle={toggle} />
       <HeroSection />
+      <InfoSection {...homePromotionObj} />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <Services />

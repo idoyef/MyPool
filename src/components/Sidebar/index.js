@@ -27,6 +27,19 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="services" onClick={toggle}>
             Services
           </SidebarLink>
+          <SidebarLink to="promotion" onClick={toggle}>
+            <div
+              style={{
+                border: "2px solid #0DAAA3",
+                borderRadius: "10px",
+                padding: "4px 7px",
+              }}
+            >
+              <strong style={{ fontSize: "1.5rem", color: "#0DAAA3" }}>
+                Promotion
+              </strong>
+            </div>
+          </SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>
