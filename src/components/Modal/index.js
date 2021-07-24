@@ -4,6 +4,7 @@ import {
   ModalContainer,
   ModalBg,
   ModalContent,
+  ModalContentHeadline,
   ModalImage,
   ModalWrapper,
   ModalDetailsButton,
@@ -63,7 +64,9 @@ const Modal = ({ showModal, setShowModal }) => {
             /> */}
 
             <ModalContent>
-              <h1>July-August Promotion!</h1>
+              <ModalContentHeadline>
+                <h1>July-August Promotion!</h1>
+              </ModalContentHeadline>
               <div
                 style={{
                   fontSize: "18px",

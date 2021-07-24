@@ -69,6 +69,11 @@ export const ModalContent = styled.div`
     }
   }
 `;
+export const ModalContentHeadline = styled.div`
+  @media screen and (max-width: 420px) {
+    width: 210px;
+  }
+`;
 
 export const ModalDetailsButton = styled(LinkScroll)`
   cursor: pointer;
