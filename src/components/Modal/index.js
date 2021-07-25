@@ -84,7 +84,7 @@ const Modal = ({ showModal, setShowModal }) => {
                   paddingBottom: "30px",
                 }}
               >
-                (up to 100 ADA)
+                (up to 250 ADA)
               </div>
               <ModalDetailsButton to="promotion" onClick={getMoreDetails}>
                 More Details

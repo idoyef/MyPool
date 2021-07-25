@@ -93,10 +93,10 @@ export const HeroP = styled.p`
 `;
 
 export const HeroBtnWrapper = styled.div`
-    margin-top: 32px;
-    display: flex;    
-    flex-direction: column    
-    align-items: center;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const ArrowForward = styled(MdArrowForward)`

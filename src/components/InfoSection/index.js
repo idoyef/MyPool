@@ -47,7 +47,17 @@ const InfoSection = ({
                   <div>
                     Only this July-August, we are{" "}
                     <span style={{ fontWeight: "bold" }}>doubling</span> your
-                    first reward (up to 100ADA).
+                    first reward (up to 250 ADA).
+                    <div
+                      style={{
+                        fontSize: "14px",
+                        fontWeight: "bold",
+                        marginTop: "5px",
+                      }}
+                    >
+                      * For those who still stake with us at the date of receipt
+                      of reward.
+                    </div>
                   </div>
                 </Subtitle>
                 <BtnWrap>
