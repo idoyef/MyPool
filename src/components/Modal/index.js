@@ -65,7 +65,7 @@ const Modal = ({ showModal, setShowModal }) => {
 
             <ModalContent>
               <ModalContentHeadline>
-                <h1>July-August Promotion!</h1>
+                <h1>August Promotion!</h1>
               </ModalContentHeadline>
               <div
                 style={{
