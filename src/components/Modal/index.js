@@ -65,7 +65,14 @@ const Modal = ({ showModal, setShowModal }) => {
 
             <ModalContent>
               <ModalContentHeadline>
-                <h1>August Promotion!</h1>
+                <h1
+                  style={{
+                    textAlign: "center",
+                    lineHeight: "42px",
+                  }}
+                >
+                  August-September Promotion!
+                </h1>
               </ModalContentHeadline>
               <div
                 style={{

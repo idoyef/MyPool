@@ -45,7 +45,7 @@ const InfoSection = ({
                   <span style={{ fontWeight: "bold" }}>New delegators</span>
                   {description}
                   <div>
-                    Only this August, we are{" "}
+                    Only this August-September, we are{" "}
                     <span style={{ fontWeight: "bold" }}>doubling</span> your
                     first reward (up to 250 ADA).
                     <div

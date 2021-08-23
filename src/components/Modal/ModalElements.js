@@ -70,6 +70,8 @@ export const ModalContent = styled.div`
   }
 `;
 export const ModalContentHeadline = styled.div`
+  padding-bottom: 10px;
+
   @media screen and (max-width: 420px) {
     width: 210px;
   }
